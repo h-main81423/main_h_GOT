@@ -9,10 +9,14 @@
 
 	function showLightbox() {
 		lightBox.classList.add('show-lightBox');
+		video.play();
 	}
 
 	function hideLightbox() {
 		lightBox.classList.remove('show-lightBox');
+		//rewind video and pause iot
+		video.currentTime = 0;
+		video.pause();
 	}
 
 	shields.forEach(shield => shield.addEventListener('click', showLightbox));
