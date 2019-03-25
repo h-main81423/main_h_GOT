@@ -126,3 +126,11 @@ video {
 	margin-top: 10%;
 	border: thin solid #949393;
 }
+
+.house-info
+{
+	font-size: 1.5em;
+	color: white;
+	margin: 20px auto 0 auto;
+	width: 70%;
+}
